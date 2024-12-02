@@ -1,14 +1,14 @@
 # Vision API Application
 
-## **Overview**
+## **1. Overview**
 This application provides robust capabilities for text extraction, image description, and alternative text generation using Azure Vision API. It is designed to be used through tools like **Postman** or **Swagger Documentation**.
 
-## **Features**
+## **1.1 Features**
 - **Text Extraction**: Extract text from an image URL.
 - **Image Description**: Generate descriptive summaries for images.
 - **Alt Text Generation**: Produce alt text for accessibility and extract OCR results from images.
 
-## **1. Setting Up the Repository**
+## **2. Setting Up the Repository**
 
 1. **Initialize a GitHub Repository**:
    - Visit GitHub and create a new repository.
@@ -35,7 +35,7 @@ This application provides robust capabilities for text extraction, image descrip
 
 ---
 
-## **2. Steps to Set Up Azure Vision API**
+## **3. Steps to Set Up Azure Vision API**
 1. **Sign Up for Azure**:
    - Go to [Azure Portal](https://portal.azure.com/) and create an account.
    - Free-tier credits are available for new users.
@@ -61,7 +61,7 @@ This application provides robust capabilities for text extraction, image descrip
 
 ---
 
-## **3. Running the Application**
+## **4. Running the Application**
 
 ### ** Steps to Run Locally**
 1. **Set Up Environment Variables**:
@@ -89,7 +89,7 @@ The server will start at http://localhost:3000.
      - **Alt Text Generation** (`/generateAlt`): Generate alt text from an image.
 
 
-## 4. Endpoints
+## 5. API Endpoints
 
 | Endpoint          | Method | Description                                           |
 |-------------------|--------|-------------------------------------------------------|
@@ -97,7 +97,7 @@ The server will start at http://localhost:3000.
 | /describeUrl       | POST   | Generate a description for an image URL.             |
 | /generateAlt       | POST   | Create alt text and OCR results from an image.       |
 
-### 4.1. Example Payloads
+### 5.1. Example Payloads
 
 1. **Text Extraction (/textExtraction)**:
    ```json
@@ -119,9 +119,9 @@ The server will start at http://localhost:3000.
 
 
 
-## **5. Debugging Guide**
+## **6. Debugging Guide**
 
-### **5.1. Common Errors**
+### **6.1. Common Errors**
 
 #### **1. Invalid API Key or Endpoint**
 - **Error**: `401 Unauthorized`
@@ -142,7 +142,7 @@ The server will start at http://localhost:3000.
   const cors = require('cors');
   app.use(cors());
 
-### **5.2. Debugging Steps**
+### **6.2. Debugging Steps**
 
 #### **1. Enable Debug Mode**
 Use the `DEBUG` environment variable to enable debug logging for the application:
@@ -163,9 +163,9 @@ Log the responses received from the Azure Vision API to troubleshoot issues:
 console.log('Azure Response:', response.data);
 ```
 
-## 6. Business Benefits
+## 7. Business Benefits
 
-### 6.1. Key Benefits
+### 7.1. Key Benefits
 - **Improved Accessibility**:  
   Automatically generates alt text, making digital content inclusive and compliant with accessibility standards.
 
@@ -178,7 +178,7 @@ console.log('Azure Response:', response.data);
 - **Scalable and Reliable**:  
   Powered by Azure Vision API, ensuring performance and scalability for enterprise needs.
 
-### 6.2. Selling Points
+### 7.2. Selling Points
 - **For Enterprises**:  
   Drive engagement by improving digital content usability.
 
@@ -189,7 +189,7 @@ console.log('Azure Response:', response.data);
   Enhance inclusivity with automated alt text solutions.
 
 
-## 7. Resources
+## 8. Resources
 - [Azure Computer Vision Documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [Postman Documentation](https://learning.postman.com/docs/getting-started/introduction/)
