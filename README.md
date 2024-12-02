@@ -2,8 +2,6 @@
 
 # Table of Contents
 
-# Table of Contents
-
 1. [Overview](#overview)
 2. [Setting Up the Repository](#setting-up-the-repository)
    - [Steps to Create and Clone the Repository](#steps-to-create-and-clone-the-repository)
