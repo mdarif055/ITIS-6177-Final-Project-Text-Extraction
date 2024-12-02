@@ -1,5 +1,32 @@
 # Vision API Application
 
+# Table of Contents
+
+1. [Overview](#overview)
+2. [Setting Up the Repository](#setting-up-the-repository)
+   - [Steps to Create and Clone the Repository](#steps-to-create-and-clone-the-repository)
+   - [Install Node.js and npm](#install-nodejs-and-npm)
+   - [Install Dependencies](#install-dependencies)
+3. [Setting Up Azure Vision API](#setting-up-azure-vision-api)
+   - [Sign Up for Azure](#sign-up-for-azure)
+   - [Create a Vision API Resource](#create-a-vision-api-resource)
+   - [Retrieve API Keys and Endpoint](#retrieve-api-keys-and-endpoint)
+   - [Update the Application](#update-the-application)
+4. [Running the Application](#running-the-application)
+   - [Steps to Run Locally](#steps-to-run-locally)
+   - [Using Postman](#using-postman)
+5. [Using the API](#using-the-api)
+   - [Endpoints](#endpoints)
+   - [Example Payloads](#example-payloads)
+6. [Debugging Guide](#debugging-guide)
+   - [Common Errors and Fixes](#common-errors-and-fixes)
+   - [Debugging Steps](#debugging-steps)
+7. [Business Benefits](#business-benefits)
+   - [Key Benefits](#key-benefits)
+   - [Selling Points](#selling-points)
+8. [Resources](#resources)
+
+
 ## **1. Overview**
 This application provides robust capabilities for text extraction, image description, and alternative text generation using Azure Vision API. It is designed to be used through tools like **Postman** or **Swagger Documentation**.
 
