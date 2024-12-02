@@ -28,7 +28,7 @@
 
 
 
-## **1. Overview**
+# **1. Overview**
 This application provides robust capabilities for text extraction, image description, and alternative text generation using Azure Vision API. It is designed to be used through tools like **Postman** or **Swagger Documentation**.
 
 ## **1.1 Features**
