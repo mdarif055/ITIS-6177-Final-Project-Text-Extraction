@@ -3,8 +3,8 @@
 # Table of Contents
 
 1. [Overview](#1-overview)
-2. [Setting Up the Repository](#setting-up-the-repository)
-   - [Steps to Create and Clone the Repository](#steps-to-create-and-clone-the-repository)
+2. [Setting Up the Repository](#2-setting-up-the-repository)
+   - [Initialize a Git Repository](#initialize-a-github-repository)
    - [Install Node.js and npm](#install-nodejs-and-npm)
    - [Install Dependencies](#install-dependencies)
 3. [Setting Up Azure Vision API](#setting-up-azure-vision-api)
