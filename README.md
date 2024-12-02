@@ -148,8 +148,7 @@ The server will start at http://localhost:3000.
 Use the `DEBUG` environment variable to enable debug logging for the application:
 ```bash
 DEBUG=app:* node app.js;
-
-
+```
 #### **2. Add Request Logging**
 Add the following middleware to `app.js` to log all incoming requests:
 ```javascript
@@ -157,12 +156,12 @@ app.use((req, res, next) => {
     console.log(`Request: ${req.method} ${req.url}`);
     next();
 });
-
+```
 #### **3. Inspect Azure Responses**
 Log the responses received from the Azure Vision API to troubleshoot issues:
 ```javascript
 console.log('Azure Response:', response.data);
-
+```
 
 ## 6. Business Benefits
 
