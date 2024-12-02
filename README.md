@@ -3,12 +3,12 @@
 # Table of Contents
 
 1. [Overview](#1-overview)
-2. [Steps in Setting and Cloning the Repo](#2-steps-in-setting-and-cloning-the-repo)
+2. [Steps in Setting and Cloning the Repo](#2-setting-up-the-repository)
 3. [Steps to Set Up Azure Vision API](#3-steps-to-set-up-azure-vision-api)
 4. [Running the Application](#4-running-the-application)
-5. [API Endpoint Details and Its Uses](#5-api-endpoint-details-and-its-uses)
-6. [Steps to Debug Issues](#6-steps-to-debug-issues)
-7. [Detailed Business Benefits of This Application](#7-detailed-business-benefits-of-this-application)
+5. [API Endpoint Details and Its Uses](#5-api-endpoints)
+6. [Steps to Debug Issues](#6-debugging-guide)
+7. [Detailed Business Benefits of This Application](#7-business-benefits)
 8. [Resources](#8-resources)
 
 ## **1. Overview**
