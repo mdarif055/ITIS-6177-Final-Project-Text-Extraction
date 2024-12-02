@@ -6,10 +6,11 @@
 2. [Steps in Setting and Cloning the Repo](#2-setting-up-the-repository)
 3. [Steps to Set Up Azure Vision API](#3-steps-to-set-up-azure-vision-api)
 4. [Running the Application](#4-running-the-application)
-5. [API Endpoint Details and Its Uses](#5-api-endpoints)
-6. [Steps to Debug Issues](#6-debugging-guide)
-7. [Business Benefits of This Application](#7-business-benefits)
-8. [Resources](#8-resources)
+5. [Accessing the API online](#accessing-the-api-documentation-online)
+6. [API Endpoint Details and Its Uses](#5-api-endpoints)
+7. [Steps to Debug Issues](#6-debugging-guide)
+8. [Business Benefits of This Application](#7-business-benefits)
+9. [Resources](#8-resources)
 
 ## **1. Overview**
 This application provides robust capabilities for text extraction, image description, and alternative text generation using Azure Vision API. It is designed to be used through tools like **Postman** or **Swagger Documentation**.
@@ -99,6 +100,36 @@ The server will start at http://localhost:3000.
      - **Image Description** (`/describeUrl`): Get a description of the image.
      - **Alt Text Generation** (`/generateAlt`): Generate alt text from an image.
 
+### **Accessing the API Documentation online**
+
+To access the API documentation for the Vision API application, follow these steps:
+
+1. **Open a Web Browser:**
+   - Launch any web browser of your choice (e.g., Chrome, Firefox, Safari).
+
+2. **Navigate to the API Documentation URL:**
+   - Enter the following URL in the address bar:
+     ```
+     http://137.184.154.129:3000/docs/
+     ```
+   - Press `Enter`.
+
+3. **Explore the API Endpoints:**
+   - Once the page loads, you will see a list of available API endpoints.
+   - Click on any endpoint to expand it and view details such as:
+     - **Description:** A brief overview of what the endpoint does.
+     - **Request Type:** The HTTP method (GET, POST, etc.) used for the request.
+     - **Parameters:** Required and optional parameters you can send with the request.
+     - **Example Requests:** Sample payloads to help you understand how to format your requests.
+
+4. **Test API Endpoints:**
+   - You can use the provided interface to test the endpoints directly from the documentation page.
+   - Fill in the necessary parameters and click on the **Try it out** button to send a request and see the response.
+
+5. **Review Responses:**
+   - Check the response from the API below the request section to see the returned data, including status codes and any error messages.
+
+By following these steps, you can easily access and test the API documentation online.
 
 ## 5. API Endpoints
 
