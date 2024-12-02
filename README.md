@@ -2,30 +2,16 @@
 
 # Table of Contents
 
-1. [Overview](#overview)
-2. [Setting Up the Repository](#setting-up-the-repository)
-   - [Steps to Create and Clone the Repository](#steps-to-create-and-clone-the-repository)
-   - [Install Node.js and npm](#install-nodejs-and-npm)
-   - [Install Dependencies](#install-dependencies)
-3. [Setting Up Azure Vision API](#setting-up-azure-vision-api)
-   - [Sign Up for Azure](#sign-up-for-azure)
-   - [Create a Vision API Resource](#create-a-vision-api-resource)
-   - [Retrieve API Keys and Endpoint](#retrieve-api-keys-and-endpoint)
-   - [Update the Application](#update-the-application)
-4. [Running the Application](#running-the-application)
-   - [Steps to Run Locally](#steps-to-run-locally)
-   - [Using Postman](#using-postman)
-5. [Using the API](#using-the-api)
-   - [Endpoints](#endpoints)
-   - [Example Payloads](#example-payloads)
-6. [Debugging Guide](#debugging-guide)
-   - [Common Errors and Fixes](#common-errors-and-fixes)
-   - [Debugging Steps](#debugging-steps)
-7. [Business Benefits](#business-benefits)
-   - [Key Benefits](#key-benefits)
-   - [Selling Points](#selling-points)
-8. [Resources](#resources)
+# Table of Contents
 
+1. [Overview](#1-overview)
+2. [Steps in Setting and Cloning the Repo](#2-steps-in-setting-and-cloning-the-repo)
+3. [Steps to Set Up Azure Vision API](#3-steps-to-set-up-azure-vision-api)
+4. [Running the Application](#4-running-the-application)
+5. [API Endpoint Details and Its Uses](#5-api-endpoint-details-and-its-uses)
+6. [Steps to Debug Issues](#6-steps-to-debug-issues)
+7. [Detailed Business Benefits of This Application](#7-detailed-business-benefits-of-this-application)
+8. [Resources](#8-resources)
 
 
 ## **1. Overview**
