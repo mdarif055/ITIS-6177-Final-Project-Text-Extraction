@@ -8,7 +8,7 @@
 4. [Running the Application](#4-running-the-application)
 5. [API Endpoint Details and Its Uses](#5-api-endpoints)
 6. [Steps to Debug Issues](#6-debugging-guide)
-7. [Detailed Business Benefits of This Application](#7-business-benefits)
+7. [Business Benefits of This Application](#7-business-benefits)
 8. [Resources](#8-resources)
 
 ## **1. Overview**
