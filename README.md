@@ -32,7 +32,7 @@ This application provides robust capabilities for text extraction, image descrip
    - Add the provided code into the cloned directory.
 
 2. **Install Node.js and npm**:
-   - Ensure you have Node.js installed. [Download it from Node.js Official Website](https://nodejs.org/).
+   - Ensure you have latest Node.js installed. [Download it from Node.js Official Website](https://nodejs.org/).
    - Verify the installation:
      ```bash
      node -v
@@ -80,7 +80,7 @@ This application provides robust capabilities for text extraction, image descrip
    - Create a `.env` file in the root directory:
      ```bash
      PORT=3000
-     BASE_URL=localhost:3000
+     BASE_URL="137.184.154.129:3000" # Optional, Default is localhost:3000
      AZURE_VISION_KEY=your_azure_vision_key
      AZURE_VISION_ENDPOINT=your_azure_vision_endpoint
      ```
@@ -144,19 +144,19 @@ By following these steps, you can easily access and test the API documentation o
 1. **Text Extraction (/textExtraction)**:
    ```json
    {
-     "url": "https://example.com/image.jpg"
+     "url": "https://quotefancy.com/media/wallpaper/3840x2160/3137301-Jimmy-Wales-Quote-I-have-always-viewed-the-mission-of-Wikipedia-to.jpg"
    }
 
 2. **Image Description (/describeUrl)**:
    ```json
    {
-     "url": "https://example.com/image.jpg"
+     "url": "https://cdn.pixabay.com/photo/2015/10/01/17/17/car-967387_1280.png"
    }
 
 3. **Alt Text Generation (/generateAlt)**:
    ```json
    {
-     "url": "https://example.com/image.jpg"
+     "url": "https://e7.pngegg.com/pngimages/491/861/png-clipart-traffic-sign-computer-file-fiat-automobiles-logo-dmv-traffic-signs-angle-text.png"
    }
 
 
